@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-L3RTXSEFKS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-L3RTXSEFKS");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width: 1025px)"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 1025px)"
+      href="laptop.css"
+    />
+    <title>Ahmed Portoflio home page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/"> Ahmed Reda </a>
+        <div class="navMobile">
+          <img src="./images/Enabled.png" alt="menu" class="navMobileIcon" />
+        </div>
+        <ul class="nav-desktop">
+          <li><a href="#first-section"> Portoflio</a></li>
+          <li><a href="#third-section"> About</a></li>
+          <li><a href="#contact"> Contact</a></li>
+          <li>
+            <a href="#"><img src="./images/Icon-Mail.png" alt="email" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="menuContainer">
+      <div class="closeButton">
+        <img src="./images/Icon-Cancel.png" alt="close" />
+      </div>
+      <ul>
+        <li class="menuLink1"><a href="#first-section"> Portoflio</a></li>
+        <li class="menuLink2"><a href="#third-section"> About</a></li>
+        <li class="menuLink3"><a href="#contact"> contact</a></li>
+      </ul>
+    </nav>
+    <div id="container" class="container">
+      <!-- brief Introduction -->
+      <section class="first-section" id="first-section">
+        <div class="title">
+          <h1>Ahmed Reda</h1>
+          <h2>Software Developer</h2>
+        </div>
+        <div class="description">
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+        </div>
+      </section>
+      <!-- Langauges and Skills About me Section -->
+      <section class="seconed-section">
+        <div class="lang-position">
+          <h3>Language</h3>
+          <ul class="lang-grid-item">
+            <li>Javascript</li>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <div class="lang-position">
+          <h3>Frameworks</h3>
+          <ul class="frame-skills-grid-item">
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>RSPec</li>
+            <li>Selenium</li>
+            <li>CapyBara</li>
+          </ul>
+        </div>
+        <div class="lang-position">
+          <h3>Skills</h3>
+          <ul class="frame-skills-grid-item">
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>CodePen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </section>
+      <!--Social links-->
+      <section class="third-section">
+        <div class="work-row">
+          <div class="grid-item work-nav-2">
+            <h4>Work</h4>
+            <img src="./images/arrow-down.png" alt="down" />
+          </div>
+          <div class="grid-item social-links">
+            <a
+              href="https://github.com/ReAliens"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="./images/Github.png" alt="Github" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ahmedreda94/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="./images/Linkedin.png" alt="Linkedin" />
+            </a>
+            <a href="#" target="_blank" rel="noreferrer noopener">
+              <img src="./images/Angelist.png" alt="Angelist" />
+            </a>
+            <a
+              href="https://github.com/ReAliens"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="./images/Twitter.png" alt="Twitter" />
+            </a>
+            <a href="#" target="_blank" rel="noreferrer noopener">
+              <img src="./images/Medium.png" alt="Medium" />
+            </a>
+          </div>
+          <div class="grid-item work-nav-1">
+            <img src="./images/arrow-down.png" alt="down" />
+            <h4>Work</h4>
+          </div>
+        </div>
+        <div class="grid-item recent">
+          <h2>MY RECENT WORK</h2>
+        </div>
+      </section>
+      <!--previous projects tempelates -->
+      <div id="lastWork" class="last-work">
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <div class="closeButton" id="modalCloseButton">
+              <img src="./images/Icon-Cancel.png" alt="close" />
+            </div>
+            <h2 id="modalTitle">Multi-post story</h2>
+            <img src="images/number1.jpg" alt="cover" id="modalImage" />
+            <p id="modalDesc">
+              iLorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it 1960s with the releaLorem Ipsum is simply
+              dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s,
+              when an unknown Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scramble.
+            </p>
+            <ul id="modalList" class="w-section-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Ruby</li>
+              <li class="last-tech">Bootstrap</li>
+            </ul>
+            <div class="buttonContainer">
+              <a href="#" id="goLive" target="_blank">
+                <div class="buttonsLink">
+                  See Live
+                  <img src="./images/Icon-Export.png" alt="icon" />
+                </div>
+              </a>
+              <a href="#" id="source" target="_blank">
+                <div class="buttonsLink">
+                  See Source
+                  <img src="./images/Github.png" alt="icon" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="contact" id="contact">
+        <h2 class="us">CONTACT US</h2>
+        <h2 class="chat">Let's chat!</h2>
+
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <div class="form-container">
+          <form
+            method="POST"
+            action="https://formspree.io/f/xleaqeyg"
+            id="contactForm"
+          >
+            <div class="full-name">
+              <label for="name"> Name </label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Name"
+                maxlength="30"
+                required
+              />
+            </div>
+            <label for="email"> Email </label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <label for="msg"> Message </label>
+            <textarea
+              id="msg"
+              placeholder="Enter you Message here"
+              maxlength="500"
+              required
+            ></textarea>
+            <span id="errorMsg"></span>
+            <div class="submit-button">
+              <button type="submit" class="submitButton">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="social-footer">
+          <a href="#" target="_blank" rel="noreferrer noopener">
+            <img src="./images/Github.png" alt="Github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ahmedreda94/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src="./images/Linkedin.png" alt="Linkedin" />
+          </a>
+          <a href="#" target="_blank" rel="noreferrer noopener">
+            <img src="./images/Angelist.png" alt="Angelist" />
+          </a>
+          <a href="#" target="_blank" rel="noreferrer noopener">
+            <img src="./images/Twitter.png" alt="Twitter" />
+          </a>
+          <a href="#" target="_blank" rel="noreferrer noopener">
+            <img src="./images/Medium.png" alt="Medium" />
+          </a>
+        </div>
+        <a href="ahmedreda152@gmail.com">ahmedreda152@gmail.com</a>
+      </footer>
+    </div>
+    <script src="myscripts.js"></script>
+  </body>
+</html>
